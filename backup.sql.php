@@ -5,11 +5,6 @@
 	Source: 	http://ryangillett.me/blog/2014/03/mysql-backup-using-php/
 	Purpose:	To routinely backup all MySQL databases on a server to a Windows network share.
 
-
-	[Future Developments]
-	- Store files as GUID/ID stored in the history table for cleaner retention.
-	- Only hold amended versions of the backup to save space; compare new backup to most recent backup (consider md5_file() and read comments )
-
 */
 
 /* ############################################################################################ */
